@@ -18,7 +18,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font), sans-serif;
-  font-variation-settings: var(--main-font-weight);
+  font-variation-settings: 'wght' var(--main-font-weight);
   color: var(--accent);
   background-color: var(--background);
   background-image: var(--gradient);
@@ -66,11 +66,6 @@
   padding: 0;
   text-transform: uppercase;
   cursor: pointer;
-}
-
-.theme-menu__button:disabled {
-  opacity: 60%;
-  pointer-events: none;
 }
 
 .card {
