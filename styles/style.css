@@ -36,7 +36,7 @@
   width: var(--size, 50%);
   margin: 0 auto 100px;
   padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem) 0 25px 0;
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
 }
 
 .header__logo {
@@ -90,7 +90,7 @@
   position:absolute;
   z-index: 1;
   color: black;
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   top: 25px;
   right: 20px;
@@ -118,7 +118,7 @@
   padding: 25px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 27px;
   font-size: 18px;
   line-height: 21px;
   border-top: 2px solid var(--accent);
@@ -145,7 +145,7 @@
   padding: 10px 17px;
   overflow: hidden;
   color: var(--button-text);
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   background-color: var(--background);
   transition: box-shadow 0.3s ease;
@@ -176,7 +176,7 @@
   border: 2px solid var(--accent);
   padding: 30px;
   color: var(--accent);
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   background-color: var(--background);
 }
